@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="263.0" y="214.0">org.tomasrohr.dbdc.core.DCUniqueKey</node>
+    <node x="707.0" y="170.0">org.tomasrohr.dbdc.core.DCColumn</node>
+    <node x="487.0" y="214.0">org.tomasrohr.dbdc.core.DCIndex</node>
+    <node x="383.0" y="0.0">org.tomasrohr.dbdc.core.DCNamedObject</node>
+    <node x="0.0" y="148.0">org.tomasrohr.dbdc.core.DCTable</node>
+    <node x="0.0" y="401.0">org.tomasrohr.dbdc.core.DataCatalog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.tomasrohr.dbdc.core.DCColumn" target="org.tomasrohr.dbdc.core.DCNamedObject">
+      <point x="0.0" y="-82.0" />
+      <point x="788.5" y="118.0" />
+      <point x="545.75" y="118.0" />
+      <point x="69.75" y="49.0" />
+    </edge>
+    <edge source="org.tomasrohr.dbdc.core.DCIndex" target="org.tomasrohr.dbdc.core.DCNamedObject">
+      <point x="0.0" y="-38.0" />
+      <point x="587.0" y="128.0" />
+      <point x="499.25" y="128.0" />
+      <point x="23.25" y="49.0" />
+    </edge>
+    <edge source="org.tomasrohr.dbdc.core.DCUniqueKey" target="org.tomasrohr.dbdc.core.DCNamedObject">
+      <point x="0.0" y="-38.0" />
+      <point x="365.0" y="128.0" />
+      <point x="452.75" y="128.0" />
+      <point x="-23.25" y="49.0" />
+    </edge>
+    <edge source="org.tomasrohr.dbdc.core.DCTable" target="org.tomasrohr.dbdc.core.DCNamedObject">
+      <point x="0.0" y="-104.0" />
+      <point x="121.5" y="118.0" />
+      <point x="406.25" y="118.0" />
+      <point x="-69.75" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="562.9904761904762" y="335.8809523809524" />
+  <SelectedNodes>
+    <node>org.tomasrohr.dbdc.core.DCNamedObject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

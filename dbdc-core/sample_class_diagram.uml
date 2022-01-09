@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="293.0">org.tomasrohr.dbdc.core.bare.BareNamedObject</node>
+    <node x="105.0" y="0.0">org.tomasrohr.dbdc.core.DCNamedObject</node>
+    <node x="175.56944444444443" y="721.0">org.tomasrohr.dbdc.core.bare.BareTable</node>
+    <node x="457.0" y="163.5">org.tomasrohr.dbdc.core.DCTable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.tomasrohr.dbdc.core.bare.BareTable" target="org.tomasrohr.dbdc.core.bare.BareNamedObject">
+      <point x="164.0" y="-116.0" />
+      <point x="492.0" y="383.0" />
+      <point x="458.75" y="383.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="org.tomasrohr.dbdc.core.bare.BareTable" target="org.tomasrohr.dbdc.core.DCTable">
+      <point x="80.25" y="-104.0" />
+      <point x="416.31944444444446" y="696.0" />
+      <point x="441.0" y="696.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="org.tomasrohr.dbdc.core.DCTable" target="org.tomasrohr.dbdc.core.DCNamedObject">
+      <point x="0.0" y="-104.5" />
+      <point x="197.25" y="124.0" />
+      <point x="287.75" y="124.0" />
+      <point x="-40.25" y="49.5" />
+    </edge>
+    <edge source="org.tomasrohr.dbdc.core.bare.BareNamedObject" target="org.tomasrohr.dbdc.core.DCNamedObject">
+      <point x="-75.5" y="-82.0" />
+      <point x="75.5" y="99.0" />
+      <point x="149.5" y="99.0" />
+      <point x="-44.5" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="520.0" y="296.5" />
+  <SelectedNodes>
+    <node>org.tomasrohr.dbdc.core.DCTable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

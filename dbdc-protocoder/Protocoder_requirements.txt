@@ -1,0 +1,38 @@
+SELECT
+    All Columns
+    Columns
+    Group By Columns
+    Duplicates
+    Where Nulls
+SHOW
+    List of Columns
+    Table DDL
+    Full DDL
+    Dependent Objects
+    Size
+TESTING
+    Compare Count
+    Compare Values
+    Compare Minus
+    Compare Columns
+    Insert Sample Data
+PROFILE
+    Histogram
+    Partition Histogram
+CREATE
+    View
+    Historization Triggers
+    Insted-of trigger
+INSERT
+    Insert New Row
+    Insert Select
+    Insert Sample Row
+UPDATE
+    Update Select
+MERGE
+    Merge
+    Merge With Delete
+PL/SQL
+    Loop Through Rows
+    Bulk Collect
+    Batch Bulk Collect

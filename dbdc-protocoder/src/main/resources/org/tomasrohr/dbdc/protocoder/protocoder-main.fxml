@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="229.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="mainVBox" fillWidth="false">
+         <children>
+            <HBox fx:id="tableOneHBox" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="tableOneTitle" prefWidth="40.0" text="Table:" />
+                  <Label fx:id="pickedTableOne" text="Label" />
+               </children>
+            </HBox>
+            <GridPane fx:id="buttonsPane" hgap="10.0" vgap="6.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="50.0" minHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="50.0" minHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="50.0" minHeight="20.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="selectButton" mnemonicParsing="false" onAction="#selectButtonAction" prefHeight="40.0" prefWidth="100.0" text="SELECT" />
+                  <Button fx:id="testingButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="TESTING" GridPane.rowIndex="1" />
+                  <Button fx:id="insertButtom" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="INSERT" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="mergeButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="MERGE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="showButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="SHOW" GridPane.columnIndex="1" />
+                  <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="PROFILE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="updateButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="UPDATE" GridPane.rowIndex="3" />
+                  <Button fx:id="createButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="CREATE" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</Pane>

@@ -1,0 +1,21 @@
+# text files
+.* text=auto
+*.iml text=auto
+*.xml text=auto
+*.fxml text=auto
+
+*.scala text=auto
+*.sc text=auto
+*.java text=auto
+*.sh text=auto
+
+*.properties text=auto
+*.json text=auto
+
+*.txt text=auto
+*.conf text=auto
+
+# binary files
+*.png binary
+*.jpg binary
+*.pdf binary

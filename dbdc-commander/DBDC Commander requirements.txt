@@ -1,0 +1,13 @@
+- two-pane DBMS object manager, like total-commander
+- manage top-level DBMS objects: tables, views, synonyms, procedures, functions, packages, AQ, jobs, shedules, types (classes in ORDBMS sense)
+- manage certain table-related objects: triggers, indices, constraints
+- NOT FOR: administration, profiling, modeling
+-  later we may add administration: schemas/databases, users, roles, tablespaces, dbfiles, system privilege grants
+- manage object privilege grants
+- operations: copy, copy privileges, move, rename, drop, purge, compare object, compare data, copy data (opens column mapping dialog), grant, revoke
+  - long-running operations: prepare skript for user, run in a background, and let user monitor it, run in a queue
+- ? How to do GUI for object type switch? Icons?, Drop-down list? 
+
+- multi-platform
+- fast, keyboard-controlled
+- cache objects for speed
