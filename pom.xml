@@ -15,8 +15,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <encoding>UTF-8</encoding>
-        <scala.version>2.11.8</scala.version>
-        <scala.compat.version>2.11</scala.compat.version>
+<!--        <scala.version>2.11.8</scala.version> -->
+<!--        <scala.compat.version>2.11</scala.compat.version> -->
     </properties>
     <!-- git config-->
 
@@ -33,11 +33,10 @@
             <artifactId>play-json_${scala.compat.version}</artifactId>
             <version>2.7.0</version>
         </dependency>
--->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.6.5</version> <!-- spark core references this version and supplying newer one breaks in runtime -->
+            <version>[2.9.10.8,)</version> 
         </dependency>
 
         <dependency>
@@ -50,7 +49,6 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
-<!--            <scope>provided</scope> -->
         </dependency>
 
         <dependency>
@@ -59,6 +57,8 @@
             <version>3.0.5</version>
             <scope>test</scope>
         </dependency>
+-->
+
 
     </dependencies>
 
